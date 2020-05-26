@@ -9,7 +9,7 @@
 /**
  * Anmashon blocks
  */
-//% weight=80 color=#0fbc11 icon=""
+//% weight=80 color=#c93413  icon=""
 namespace blinker {
     /**
      *blink a led at a prticrler intvel

@@ -1,6 +1,35 @@
 
 > Open this page at [https://lucasmayhew.github.io/blocks/](https://lucasmayhew.github.io/blocks/)
 
+## Usage
+
+### Blink
+Blink a LED forever
+```blocks
+function doSomething () {
+    blinker.blink(2, 2, 100)
+    basic.pause(300)
+    blinker.blink(3, 2, 200)
+    blinker.blink(1, 2, 200)
+    blinker.blink(2, 1, 200)
+    blinker.blink(2, 3, 200)
+    basic.pause(300)
+    blinker.blink(1, 0, 300)
+    blinker.blink(2, 0, 300)
+    blinker.blink(3, 0, 300)
+    blinker.blink(4, 3, 300)
+    blinker.blink(4, 2, 300)
+    blinker.blink(4, 1, 300)
+    blinker.blink(0, 1, 300)
+    blinker.blink(0, 2, 300)
+    blinker.blink(0, 3, 300)
+    blinker.blink(1, 4, 300)
+    blinker.blink(2, 4, 300)
+    blinker.blink(3, 4, 300)
+}
+doSomething()
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
@@ -18,12 +47,6 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/lucasmayhew/blocks** and click import
 
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/lucasmayhew/blocks/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (used for search, rendering)
 
