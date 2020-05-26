@@ -15,12 +15,23 @@ namespace blinker {
      *blink a led at a prticrler intvel
      * 
      */
-    //% block="blink at x $x y $y every $interva ms"
+    //% block="blink forever at x $x y $y every $interva ms"
     export function blink(x:number ,y: number, interva: number): void {
         let sprite = game.createSprite(x, y)
         sprite.setBlink(interva)
 
     }
 
-  
+ /**
+     *blink a led at a prticrler intvel
+     * 
+     */
+    //% block="blink  at x $x y $y every $interva ms"
+    export function blinker(x:number ,y: number, interva: number): void {
+        let sprite = game.createSprite(x, y)
+        sprite.setBlink(interva)
+        
+
+    }
+
 }
