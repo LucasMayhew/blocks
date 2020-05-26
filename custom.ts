@@ -23,7 +23,7 @@ namespace blinker {
     }
 
  /**
-     *blink a led at a prticrler intvel
+     *blink a LED at a prticrler intvel 
      * 
      */
     //% block="blink  at x $x y $y every $interva ms"
